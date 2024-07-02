@@ -101,6 +101,25 @@ def calculate_pips_per_candle_SHORT(prices_open, prices_close, pip_size=0.0001):
     return pips_per_candle, shortSignal
 
 
+
+def stop_loss_long():
+
+    time.sleep(3600)
+
+def take_profit_long():
+
+    time.sleep(3600)
+
+def stop_loss_short():
+
+    time.sleep(3600)
+
+def take_profit_short():
+
+    time.sleep(3600)
+
+
+
 def buy_long():
 
     ticker = "EURUSD=X"
